@@ -1,0 +1,29 @@
+<div class="container">
+    <h2>Contact List</h2>  
+    <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Full Name</th>
+          <th>Mobile Number</th>
+          <th>Email</th>
+          <th>Subject</th>
+          <th>Subject</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of students">
+          <td>{{ student.fullName }}</td>
+          <td>{{ student.phoneNumber }}</td>
+          <td>{{ student.email }}</td>
+          <td>{{ student.subject }}</td>
+          <td>{{ student.message }}</td>
+          <td>
+            <button (click)="deleteStudent(student.id)" class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

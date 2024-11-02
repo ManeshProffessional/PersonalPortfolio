@@ -1,0 +1,94 @@
+body {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set text color to white for better contrast */
+}
+
+.container {
+    max-width: 800px; /* Set a max width for the container */
+    margin: 0 auto;   /* Center the container */
+    padding: 20px;    /* Add some padding */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.btn {
+    margin-bottom: 20px; /* Space below the button */
+}
+
+.alert {
+    margin-bottom: 20px; /* Space below the alert */
+}
+
+.table {
+    width: 100%; /* Make the table full width */
+    margin-bottom: 20px; /* Space below the table */
+    border-collapse: collapse; /* Ensure borders are collapsed */
+}
+
+.table th, .table td {
+    text-align: left; /* Align table content to the left */
+    padding: 10px; /* Add padding for table cells */
+    font-size: medium;
+}
+
+.table th {
+    background-color: #343a40; /* Dark gray for table header */
+    color: white; /* White text for contrast */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #454d55; /* Slightly lighter gray for even rows */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #212529; /* Dark gray for odd rows */
+}
+
+/* Column widths for headers */
+.table th:nth-child(1) {
+    width: 30%; /* Name column */
+}
+
+.table th:nth-child(2) {
+    width: 20%; /* Student Code column */
+}
+
+.table th:nth-child(3) {
+    width: 20%; /* Mobile Number column */
+}
+
+.table th:nth-child(4) {
+    width: 20%; /* Address column */
+}
+
+.table th:nth-child(5) {
+    width: 10%; /* Actions column */
+}
+
+/* Column widths for data cells */
+.table td:nth-child(1) {
+    width: 30%; /* Name column */
+}
+
+.table td:nth-child(2) {
+    width: 20%; /* Student Code column */
+}
+
+.table td:nth-child(3) {
+    width: 20%; /* Mobile Number column */
+}
+
+.table td:nth-child(4) {
+    width: 20%; /* Address column */
+}
+
+.table td:nth-child(5) {
+    width: 10%; /* Actions column */
+}
+
+.btn-danger {
+    margin-top: 5px; /* Add space above the delete button */
+}
